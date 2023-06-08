@@ -1,1 +1,1 @@
-//aca cree la carpeta en donde iria todo el backend de la app
+//arregle esta componente que no estaba funcionado.
