@@ -1,0 +1,160 @@
+h1,
+h2,
+h3,
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+background-color: #D9D9D9;
+  color: #000000;
+}
+
+.all-elements{
+    display: flex;
+    flex-direction: column;
+    align-items:center
+        
+}
+
+.principal {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 678px;
+  height: 356px;
+  left: 218px;
+  top: 177px;
+  
+  background: #d9d9d9;
+  border: 1px solid #000000;
+}
+
+.title-description-text {
+    /* float: left; */
+  margin-bottom: 10%;
+  margin-top: 10%;
+  width: 50%;
+  height: 72px;
+  left: calc(50% - 138px / 2 - 163px);
+  top: 312px;
+}
+
+.log-in-candidates {
+  box-sizing: border-box;
+  float: left;
+
+  /* position: absolute; */
+  width: 20%;
+  height: 20%;
+  left: 218px;
+  top: 595px;
+
+  background: #d9d9d9;
+  border: 1px solid #000000;
+}
+
+.log-in-companies {
+    box-sizing: border-box;
+    float: left;
+
+/* position: absolute; */
+width: 20%;
+height: 20%;
+left: 584px;
+top: 595px;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+}
+
+.image {
+    box-sizing: border-box;
+    float: right;
+
+    /* position: absolute; */
+    width: 40%;
+    height: 40%;
+    left: 971px;
+    /* top: calc(50% - 484px/2 - 1175px); */
+    
+    background: #D9D9D9;
+    border: 1px solid #000000;
+}
+
+.project {
+    box-sizing: border-box;
+
+/* position: absolute; */
+width: 543px;
+height: 228px;
+left: 218px;
+/* top: calc(50% - 228px/2 - 568px); */
+
+background: #D9D9D9;
+border: 1px solid #000000;
+}
+
+.project-image {
+    width: 40%;
+    float: left;
+    border: 1px solid #000000;
+}
+
+.project-text {
+    width: 40%;
+    float: right;
+    border: 1px solid #000000;
+}
+
+.posts {
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    /* position: absolute; */
+    width: 543px;
+    height: 228px;
+    left: 218px;
+    /* top: calc(50% - 228px/2 - 568px); */
+    
+    background: #D9D9D9;
+    border: 1px solid #000000;
+}
+
+.companies {
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 543px;
+    height: 228px;
+    left: 218px;
+    /* top: calc(50% - 228px/2 - 568px); */
+    
+    background: #D9D9D9;
+    border: 1px solid #000000;
+}
+
+.companies-elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.subscriptions {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* position: absolute; */
+    width: 543px;
+    height: 228px;
+    left: 218px;
+    /* top: calc(50% - 228px/2 - 568px); */
+    
+    background: #D9D9D9;
+    border: 1px solid #000000;
+}
