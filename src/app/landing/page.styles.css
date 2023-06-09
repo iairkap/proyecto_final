@@ -1,15 +1,27 @@
 h1,
 h2,
 h3,
+h4,
 p {
+    
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  /* font-size: 20px; */
+  line-height: 16px;
   text-align: center;
 background-color: #D9D9D9;
   color: #000000;
+}
+
+p {
+
+}
+
+button {
+    color: #ffffff;
+    background-color: #7155D9;
+    margin: 30px;
 }
 
 .all-elements{
@@ -28,7 +40,7 @@ background-color: #D9D9D9;
   left: 218px;
   top: 177px;
   
-  background: #d9d9d9;
+  background: #efefef;
   border: 1px solid #000000;
 }
 
@@ -52,8 +64,13 @@ background-color: #D9D9D9;
   left: 218px;
   top: 595px;
 
-  background: #d9d9d9;
-  border: 1px solid #000000;
+  color: #ffffff;
+  /* background: #B682D9; */
+  /* border: 1px solid #000000; */
+}
+
+.log-in-candidates button {
+    background: #B682D9;
 }
 
 .log-in-companies {
@@ -66,23 +83,30 @@ height: 20%;
 left: 584px;
 top: 595px;
 
-background: #D9D9D9;
-border: 1px solid #000000;
+color: #ffffff;
+/* background: #7155D9; */
+/* border: 1px solid #000000; */
 }
 
-.image {
+.principal-image {
     box-sizing: border-box;
     float: right;
 
     /* position: absolute; */
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     left: 971px;
+    margin: -100px 30px 30px 30px;
     /* top: calc(50% - 484px/2 - 1175px); */
     
-    background: #D9D9D9;
-    border: 1px solid #000000;
+    background: #efefef;
+    /* border: 1px solid #000000; */
 }
+
+.principal-image Image {
+    max-width: 100px;
+}
+
 
 .project {
     box-sizing: border-box;
@@ -90,17 +114,18 @@ border: 1px solid #000000;
 /* position: absolute; */
 width: 543px;
 height: 228px;
-left: 218px;
+margin-bottom: 70px;
 /* top: calc(50% - 228px/2 - 568px); */
 
-background: #D9D9D9;
+background: #efefef;
 border: 1px solid #000000;
 }
 
 .project-image {
     width: 40%;
+    height: 40%;
+    margin: 10px;
     float: left;
-    border: 1px solid #000000;
 }
 
 .project-text {
@@ -109,21 +134,57 @@ border: 1px solid #000000;
     border: 1px solid #000000;
 }
 
+.project-text p {
+    font-size: 0.5em;
+}
+
 .posts {
     box-sizing: border-box;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 
     /* position: absolute; */
-    width: 543px;
-    height: 228px;
-    left: 218px;
+    width: 100%;
+    height: 20%;
+    float: left;
     /* top: calc(50% - 228px/2 - 568px); */
     
-    background: #D9D9D9;
+    background: #efefef;
     border: 1px solid #000000;
 }
+
+.post {
+    float: left;
+    max-width: 30%;
+}
+
+.post button {
+    float: right;
+    margin: -16px -98px 4px 28px;
+}
+
+.post h3 {
+    margin: 10px;
+}
+.post h3, .post p {
+    /* max-width: 30%; */
+}
+
+.posts-image {
+    box-sizing: border-box;
+    float: right;
+
+    /* position: absolute; */
+    width: 30%;
+    height: 30%;
+    margin: -250px 30px 30px 30px;
+    /* top: calc(50% - 484px/2 - 1175px); */
+    
+    background: #efefef;
+    /* border: 1px solid #000000; */
+}
+
 
 .companies {
     box-sizing: border-box;
@@ -131,16 +192,16 @@ border: 1px solid #000000;
     /* position: absolute; */
     width: 543px;
     height: 228px;
-    left: 218px;
     /* top: calc(50% - 228px/2 - 568px); */
     
-    background: #D9D9D9;
+    background: #efefef;
     border: 1px solid #000000;
 }
 
 .companies-elements {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
 
 }
 
@@ -155,6 +216,13 @@ border: 1px solid #000000;
     left: 218px;
     /* top: calc(50% - 228px/2 - 568px); */
     
-    background: #D9D9D9;
+    background: #efefef;
     border: 1px solid #000000;
 }
+
+.subscriptions h4 {
+    margin: 10px;
+}
+ .subscriptions button {
+    align-items: center;
+ }
