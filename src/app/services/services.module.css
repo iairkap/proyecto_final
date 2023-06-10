@@ -1,0 +1,14 @@
+.ServicesContainer {
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.plansContainer {
+  display: flex;
+  margin-top: 120px;
+  gap: 50px;
+}

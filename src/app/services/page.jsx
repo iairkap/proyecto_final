@@ -1,5 +1,7 @@
 import React from "react";
-import PricingTable from "../../../components/PricingTable";
+import PricingTable from "../../components/PricingTable/PricingTable";
+import NavBar from "../../components/NavBar/NavBar";
+import styles from "./services.module.css";
 
 const plans = [
   {
@@ -22,8 +24,15 @@ const plans = [
 const Page = () => {
   return (
     <div>
-      <h1>Nuestros Planes</h1>
-      <PricingTable plan={plans} />
+      <NavBar />
+      <div className={styles.ServicesContainer}>
+        <div>
+          <h1>Services</h1>
+        </div>
+        <div className={styles.plansContainer}>
+          <PricingTable plan={plans} />
+        </div>
+      </div>
     </div>
   );
 };
