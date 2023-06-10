@@ -1,4 +1,5 @@
 import Image from "next/image";
+import NavBar from "@/components/NavBar/NavBar";
 import imagen_1 from "../../images/imagen_1.png";
 import imagen_2 from "../../images/imagen_2.png";
 import imagen_3 from "../../images/imagen_3.png";
@@ -8,21 +9,25 @@ function landing() {
 
     return (
         <>
+            <NavBar />
             <div className="all-elements">
 
                 <div className="principal">
                     {/* <h1>Sección Principal</h1> */}
-                    <div className="title-description-text">
-                        <h2 >We connect IT Talent with Israel’s Companies</h2>
-                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget felis et urna mollis tincidunt. Proin felis sem, aliquet eu turpis eget, consectetur suscipit magna. Curabitur et quam eu ante gravida ultricies. </p>
-                    </div>
+                    <div className="title-description-login">
 
-                    <div className="log-in-candidates">
-                        <button>Log in candidatos</button>
-                    </div>
+                        <div className="title-description-text">
+                            <h2 >We connect IT Talent with Israel’s Companies</h2>
+                            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget felis et urna mollis tincidunt. Proin felis sem, aliquet eu turpis eget, consectetur suscipit magna. Curabitur et quam eu ante gravida ultricies. </p>
+                        </div>
 
-                    <div className="log-in-companies">
-                        <button>Log in empresas</button>
+                        <div className="log-in-candidates">
+                            <button>Log in candidates</button>
+                        </div>
+
+                        <div className="log-in-companies">
+                            <button>Log in companies</button>
+                        </div>
                     </div>
 
                     <Image src={imagen_1} alt="image" className="principal-image" />
@@ -33,7 +38,7 @@ function landing() {
                     {/* <h1>Sección "proyecto"</h1> */}
                     <Image src={imagen_2} alt="image" className="project-image" />
                     <div className="project-text">
-                        <h2>Title about our mission</h2>
+                        <h1>Title about our mission</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget felis et urna mollis tincidunt. Proin felis sem, aliquet eu turpis eget, consectetur suscipit magna. Curabitur et quam eu ante gravida ultricies. Etiam pharetra pretium sem, sit amet porta metus mollis at. Donec eget purus varius, imperdiet diam sed, porttitor metus. Cras luctus sit amet nunc ut malesuada. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus maximus ornare mi nec semper. Phasellus et sapien odio. Pellentesque laoreet tortor iaculis nibh aliquam tempor. Vivamus vehicula iaculis velit a fermentum.</p>
                         <div>
                             <button>Botón a "proyecto"</button>
@@ -41,28 +46,36 @@ function landing() {
                     </div>
                 </div>
 
-                <div>
+                <div className="posts">
                     {/* <h1>Sección "Publicaciones"</h1> */}
-                    <div className="posts">
+                    <div className="posts-jobs">
 
                         <div className="post">
-                            <h3>Título del puesto</h3>
-                            <p>Posición</p>
+                            <div className="post-text">
+                                <h3>Título del puesto</h3>
+                                <p>Posición</p>
+                            </div>
                             <button>Ver más</button>
                         </div>
                         <div className="post">
-                            <h3>Título del puesto</h3>
-                            <p>Posición</p>
+                            <div className="post-text">
+                                <h3>Título del puesto</h3>
+                                <p>Posición</p>
+                            </div>
                             <button>Ver más</button>
                         </div>
                         <div className="post">
-                            <h3>Título del puesto</h3>
-                            <p>Posición</p>
+                            <div className="post-text">
+                                <h3>Título del puesto</h3>
+                                <p>Posición</p>
+                            </div>
                             <button>Ver más</button>
                         </div>
                         <div className="post">
-                            <h3>Título del puesto</h3>
-                            <p>Posición</p>
+                            <div className="post-text">
+                                <h3>Título del puesto</h3>
+                                <p>Posición</p>
+                            </div>
                             <button>Ver más</button>
                         </div>
                     </div>
@@ -83,19 +96,19 @@ function landing() {
                 <div>
                     {/* <h1>Sección "suscripciones"</h1> */}
                     <div className="subscriptions">
-                        <div>
+                        <div className="subscription-plan">
                             <h3>Plan 1</h3>
                             <h4>$ 0</h4>
                             <button>Comprar</button>
                             <p>Texto sobre beneficios del plan</p>
                         </div>
-                        <div>
+                        <div className="subscription-plan">
                             <h3>Plan 2</h3>
                             <h4>$ 15</h4>
                             <button>Comprar</button>
                             <p>Texto sobre beneficios del plan</p>
                         </div>
-                        <div>
+                        <div className="subscription-plan">
                             <h3>Plan 3</h3>
                             <h4>$ 35</h4>
                             <button>Comprar</button>
