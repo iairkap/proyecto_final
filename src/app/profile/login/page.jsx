@@ -1,30 +1,13 @@
 import React from "react";
+import NavBar from "../../../components/NavBar/NavBar";
 import styles from "./login.module.css";
 import Image from "next/image";
-import Vector from "../../../images/Vector.png";
-import home from "../../../images/home.svg";
-import search from "../../../images/search.svg";
-import notification from "../../../images/notification.svg";
-import favorites from "../../../images/favorites.svg";
-import google from "../../../images/google.svg";
-import linkedin from "../../../images/linkedin.svg";
-import github from "../../../images/github.svg";
-import signinvector from "../../../images/signinvector.png";
-function login(props) {
+import { google, linkedin, github, signinvector } from "../../../assets/page";
+
+const login = () => {
   return (
     <div>
-      <div className={styles.Navbar}>
-        <div className={styles.MenuContainer}>
-          <Image src={Vector} alt="image" className={styles.Menu} />
-          <br />
-        </div>
-        <div className={styles.IconsContainer}>
-          <Image src={home} alt="image" className={styles.Icons} />
-          <Image src={search} alt="image" className={styles.Icons} />
-          <Image src={notification} alt="image" className={styles.Icons} />
-          <Image src={favorites} alt="image" className={styles.Icons} />
-        </div>
-      </div>
+      <NavBar />
       <div className={styles.LogInContainer}>
         <div className={styles.InputsLogIn}>
           <div className={styles.TitleLogIn}>
@@ -35,7 +18,6 @@ function login(props) {
             <div className={styles.email}>
               <label htmlFor="email">
                 <h2 className={styles.labelInput}>Email </h2>
-                <br />
                 <input
                   type="text"
                   name="email"
@@ -45,7 +27,6 @@ function login(props) {
               </label>
               <label htmlFor="Password">
                 <h2 className={styles.labelInput}>Password </h2>
-                <br />
                 <input
                   type="password"
                   name="password"
@@ -90,6 +71,6 @@ function login(props) {
       </div>
     </div>
   );
-}
+};
 
 export default login;
