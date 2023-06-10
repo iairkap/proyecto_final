@@ -5,19 +5,34 @@ import styles from "./services.module.css";
 
 const plans = [
   {
-    title: "Básico",
-    price: 29,
-    features: ["ABC", "DEF", "GHI"],
+    title: "Option 1",
+    subtitles: "Lorem ipsum dolor sit amet",
+    price: 0,
+    features: [
+      "Lorem Ipsum per por cuasit amet, consectur bunc eget.",
+      "Lorem Ipsum per por cuasit amet, consectur bunc eget. Margaret Tatcher, Harry Potter, Ron Weasley, Alfred estuvo aqui.",
+      "End of passion play, crumbling away, I’m your source of self-destruction. ",
+    ],
   },
   {
-    title: "Intermedio",
-    price: 99,
-    features: ["ABC", "DEF", "GHI"],
+    title: "Option 2",
+    subtitles: "Lorem ipsum dolor sit amet",
+    price: 15,
+    features: [
+      "Lorem Ipsum per por cuasit amet, consectur bunc eget.",
+      "Lorem Ipsum per por cuasit amet, consectur bunc eget. Margaret Tatcher, Harry Potter, Ron Weasley, Alfred estuvo aqui.",
+      "End of passion play, crumbling away, I’m your source of self-destruction. ",
+    ],
   },
   {
-    title: "Avanzado",
-    price: 199,
-    features: ["ABC", "DEF", "GHI"],
+    title: "Option 3",
+    subtitles: "Lorem ipsum dolor sit amet",
+    price: 35,
+    features: [
+      "Lorem Ipsum per por cuasit amet, consectur bunc eget.",
+      "Lorem Ipsum per por cuasit amet, consectur bunc eget. Margaret Tatcher, Harry Potter, Ron Weasley, Alfred estuvo aqui.",
+      "End of passion play, crumbling away, I’m your source of self-destruction. ",
+    ],
   },
 ];
 
@@ -27,7 +42,7 @@ const Page = () => {
       <NavBar />
       <div className={styles.ServicesContainer}>
         <div>
-          <h1>Services</h1>
+          <h1 className={styles.title}>Services</h1>
         </div>
         <div className={styles.plansContainer}>
           <PricingTable plan={plans} />
