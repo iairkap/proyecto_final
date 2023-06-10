@@ -1,18 +1,22 @@
 import React from "react";
 import styles from "./pricingPlan.module.css";
+import pointbullet from "../../images/pointbullet.png";
 
-const PricingPlan = ({ plan }) => {
+const PricingPlan = ({ plan, borderColor }) => {
   return (
     <div>
-      <div className={styles.Contenedor}>
+      <div className={styles.Contenedor} style={{ borderColor: borderColor }}>
         <h1 className={styles.title}>{plan.title}</h1>
-        <h2>{plan.price}</h2>
+        <h3 className={styles.subtitles}>{plan.subtitles}</h3>
+        <h1 className={styles.prices}>{plan.price}</h1>
+        <button className={styles.button}>Join!</button>
         <ul>
           {plan.features.map((feature, index) => (
-            <li key={index}>{feature}</li>
+            <li className={styles.list} key={index}>
+              {feature}
+            </li>
           ))}
         </ul>
-        <button>Seleccionar</button>
       </div>
     </div>
   );
