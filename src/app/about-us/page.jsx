@@ -14,7 +14,7 @@ const us = [
   {
     name: "Ignacio Cenni",
     github: "https://github.com/ignaciocenni",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/ignaciocenni",
     image: au5,
   },
   {
@@ -26,19 +26,19 @@ const us = [
   {
     name: "Natalia Malvicino",
     github: "https://github.com/Aafterlife17",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/nataliamalvicino/",
     image: au4,
   },
   {
     name: "Iair Kaplun",
     github: "https://github.com/iairkap",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/iair-kaplun-97145a88",
     image: au8,
   },
   {
     name: "Iván Scarsella",
     github: "https://github.com/IvanScarsella",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/iv%C3%A1n-scarsella-126a18261/",
     image: au6,
   },
   {
@@ -62,9 +62,12 @@ const aboutUs = () => {
       <div className={styles.Container}>
         <div className={styles.titleContainer}>
           <h1 className={styles.title}>Meet the team!</h1>
-          <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            voluptas, tempore dolores quos.
+          <h3 className={styles.subtitle}>
+            "We are a team of passionate full-stack developers, all alumni of
+            the Henry Bootcamp. Each project we undertake showcases our
+            commitment and our high-quality tech talent. Our work goes beyond
+            just meeting standards - it sets them. Welcome to our platform,
+            where we turn technology into an art form."
           </h3>
         </div>
         <div className={styles.UsContainer}>

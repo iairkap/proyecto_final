@@ -19,7 +19,7 @@ const UsCard = ({ name, github, linkedin, image }) => {
           <a href={linkedin} target="_blank" rel="noopener noreferrer">
             <img
               className={styles.icon}
-              src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"
+              src="https://img.icons8.com/ios-filled/50/000000/linkedin.svg"
               alt="linkedin"
             />
           </a>
