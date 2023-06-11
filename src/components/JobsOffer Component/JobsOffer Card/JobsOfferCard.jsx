@@ -1,6 +1,7 @@
 import react from "react";
 import styles from "./JobsOfferCard.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const JobsOfferCard = ({ id, company, profilePicture, name, seniority }) => {
   return (
@@ -14,7 +15,9 @@ const JobsOfferCard = ({ id, company, profilePicture, name, seniority }) => {
         <span className={styles.span}> {seniority} </span>
       </div>
       <div className={styles.contenedorButton}>
-        <button className={styles.button}>Apply!</button>
+        <Link href={`/profile/login`}>
+          <button className={styles.button}>Apply!</button>
+        </Link>
       </div>
     </div>
   );
