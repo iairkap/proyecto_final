@@ -1,6 +1,5 @@
 import React from "react";
 import PricingTable from "../../components/PricingTable/PricingTable";
-import NavBar from "../../components/NavBar/NavBar";
 import styles from "./services.module.css";
 
 const plans = [
@@ -39,7 +38,6 @@ const plans = [
 const Page = () => {
   return (
     <div>
-      <NavBar />
       <div className={styles.ServicesContainer}>
         <div>
           <h1 className={styles.title}>Services</h1>

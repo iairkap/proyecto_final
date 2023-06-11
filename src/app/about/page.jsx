@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./about-us.module.css";
-import NavBar from "../../components/NavBar/NavBar";
 import { au1, au2, au3, au4, au5, au6, au7, au8 } from "../../assets/page";
 import UsContainer from "../../components/UsContainer/UsContainer";
 
@@ -58,16 +57,15 @@ const us = [
 const aboutUs = () => {
   return (
     <div>
-      <NavBar />
       <div className={styles.Container}>
         <div className={styles.titleContainer}>
           <h1 className={styles.title}>Meet the team!</h1>
           <h3 className={styles.subtitle}>
-            "We are a team of passionate full-stack developers, all alumni of
-            the Henry Bootcamp. Each project we undertake showcases our
-            commitment and our high-quality tech talent. Our work goes beyond
-            just meeting standards - it sets them. Welcome to our platform,
-            where we turn technology into an art form."
+            We are a team of passionate full-stack developers, all alumni of the
+            Henry Bootcamp. Each project we undertake showcases our commitment
+            and our high-quality tech talent. Our work goes beyond just meeting
+            standards - it sets them. Welcome to our platform, where we turn
+            technology into an art form.
           </h3>
         </div>
         <div className={styles.UsContainer}>

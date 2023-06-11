@@ -18,6 +18,11 @@ import au5 from "../images/au5.png";
 import au6 from "../images/au6.png";
 import au7 from "../images/au7.png";
 import au8 from "../images/au8.png";
+import wix from "../images/wix.png";
+import GoogleBlack from "../images/GoogleBlack.svg";
+import meta from "../images/meta.svg";
+import windows from "../images/windows.svg";
+import samplepost from "../images/SamplePosts.png";
 
 export {
   favorites,
@@ -40,4 +45,9 @@ export {
   au6,
   au7,
   au8,
+  wix,
+  GoogleBlack,
+  meta,
+  windows,
+  samplepost,
 };
