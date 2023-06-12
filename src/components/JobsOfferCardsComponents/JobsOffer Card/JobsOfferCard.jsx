@@ -24,3 +24,5 @@ const JobsOfferCard = ({ id, company, profilePicture, name, seniority }) => {
 };
 
 export default JobsOfferCard;
+
+//
