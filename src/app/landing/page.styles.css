@@ -6,10 +6,8 @@ p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  /* font-size: 20px; */
   line-height: 16px;
   text-align: center;
-  background-color: #d9d9d9;
   color: #000000;
 }
 
@@ -28,73 +26,69 @@ button {
 .principal {
   box-sizing: border-box;
 
-  /* position: absolute; */
-  width: 678px;
-  height: 356px;
-  left: 218px;
-  top: 177px;
-
+  margin-left: 5%;
+  
   background: #efefef;
   border: 1px solid #000000;
 }
 
+.title-description-login {
+  width: 50%;
+  padding: 5%;
+}
+
 .title-description-text {
-  /* float: left; */
   margin-bottom: 10%;
   margin-top: 10%;
-  width: 50%;
   height: 72px;
-  left: calc(50% - 138px / 2 - 163px);
-  top: 312px;
+}
+
+.title-description-text h2 {
+  font-size: 3em;
+  line-height: 1em;
+  margin: 5%;
+  margin-bottom: 50px;
 }
 
 .log-in-candidates {
   box-sizing: border-box;
   float: left;
-
-  /* position: absolute; */
+  
   width: 20%;
   height: 20%;
-  left: 218px;
-  top: 595px;
-
+  margin: 1%;
+  
   color: #ffffff;
-  /* background: #B682D9; */
-  /* border: 1px solid #000000; */
 }
 
 .log-in-candidates button {
   background: #b682d9;
+  margin-top: 68%;
 }
 
 .log-in-companies {
   box-sizing: border-box;
   float: left;
+  
+  margin-left: 56%;
+  margin-top: 10%;
 
-  /* position: absolute; */
   width: 20%;
   height: 20%;
-  left: 584px;
-  top: 595px;
 
   color: #ffffff;
-  /* background: #7155D9; */
-  /* border: 1px solid #000000; */
 }
 
 .principal-image {
   box-sizing: border-box;
   float: right;
 
-  /* position: absolute; */
   width: 30%;
   height: 30%;
   left: 971px;
-  margin: -100px 30px 30px 30px;
-  /* top: calc(50% - 484px/2 - 1175px); */
+  margin: -300px 80px 30px 30px;
 
   background: #efefef;
-  /* border: 1px solid #000000; */
 }
 
 .principal-image Image {
@@ -104,44 +98,35 @@ button {
 .project {
   box-sizing: border-box;
 
-  /* position: absolute; */
-  width: 543px;
-  height: 228px;
-  margin-bottom: 70px;
-  /* top: calc(50% - 228px/2 - 568px); */
+  margin-left: 5%;
 
   background: #efefef;
   border: 1px solid #000000;
 }
 
 .project-image {
-  width: 40%;
-  height: 40%;
-  margin: 10px;
+  width: 35%;
+  height: 35%;
+  margin-left: 100px;
   float: left;
 }
 
 .project-text {
+  margin: 100px 80px 0px 0px;
+  height: 72px;
   width: 40%;
   float: right;
-  border: 1px solid #000000;
 }
 
-.project-text p {
-  font-size: 0.5em;
+.project-text button {
+  margin-left: 40%;
 }
 
 .posts {
   box-sizing: border-box;
 
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-
-  /* position: absolute; */
-  width: 100%;
-  height: 20%;
-  float: left;
-  /* top: calc(50% - 228px/2 - 568px); */
+  margin-left: 5%;
+  width: 95%;
 
   background: #efefef;
   border: 1px solid #000000;
@@ -149,39 +134,50 @@ button {
 
 .post {
   float: left;
-  max-width: 30%;
+  max-width: 80%;
+  border: 1px solid #000000;
 }
 
 .post button {
   float: right;
-  margin: -16px -98px 4px 28px;
+  margin: -50px 35px 0px 0px;
 }
 
-.post h3 {
+.post h3, .post p {
+  float: left;
+  max-width: 35%;
   margin: 10px;
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.posts-jobs {
+  margin: 40px 0px 0px 30px;
+  width: 50%;
+  float: left;
+  display: grid;
 }
 
 .posts-image {
   box-sizing: border-box;
   float: right;
 
-  /* position: absolute; */
-  width: 30%;
-  height: 30%;
-  margin: -250px 30px 30px 30px;
-  /* top: calc(50% - 484px/2 - 1175px); */
+  margin-right: 150px;
+  width: 35%;
+  height: 35%;
 
   background: #efefef;
-  /* border: 1px solid #000000; */
 }
 
 .companies {
   box-sizing: border-box;
 
-  /* position: absolute; */
-  width: 543px;
-  height: 228px;
-  /* top: calc(50% - 228px/2 - 568px); */
+  height: 300px;
+  width: 95%;
+  margin-left: 5%;
 
   background: #efefef;
   border: 1px solid #000000;
@@ -190,7 +186,7 @@ button {
 .companies-elements {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 .subscriptions {
@@ -198,19 +194,25 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
-  /* position: absolute; */
-  width: 543px;
+  margin-left: -46%;
+  width: 203%;
   height: 228px;
-  left: 218px;
-  /* top: calc(50% - 228px/2 - 568px); */
 
   background: #efefef;
   border: 1px solid #000000;
 }
 
+.subscriptions h3 {
+  font-size: 2em;
+}
 .subscriptions h4 {
+  font-size: 3em;
   margin: 10px;
 }
 .subscriptions button {
-  align-items: center;
+  margin: 0px 0px 0px 140px;
+}
+
+.subscription-plan {
+  border: 1px solid #000000;
 }
