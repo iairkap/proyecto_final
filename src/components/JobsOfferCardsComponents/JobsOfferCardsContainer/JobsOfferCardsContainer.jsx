@@ -7,18 +7,18 @@ const JobsOfferCardsContainer = ({ jobs }) => {
 
   return (
     <div className={styles.Container}>
-      <ul style={{ maxHeight: '300px', overflowY: 'auto', color: 'gray', textShadow: 'white' }}>
-        {firstFiveJobs.map((job, index) => (
-          <JobsOfferCard
-            key={index}
-            id={job.id}
-            company={job.company}
-            profilePicture={job.profilePicture}
-            name={job.name}
-            seniority={job.seniority}
-          />
-        ))}
-      </ul>
+      {firstFiveJobs.map((job, index) => (
+        <JobsOfferCard
+          key={index}
+          id={job.id}
+          company={job.company}
+          profilePicture={job.profilePicture}
+          name={job.name}
+          seniority={job.seniority}
+          showButton={true}
+          showSpan={false}
+        />
+      ))}
     </div>
   );
 };

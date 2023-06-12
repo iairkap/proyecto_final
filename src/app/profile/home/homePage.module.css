@@ -1,0 +1,11 @@
+.globalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobsContainer {
+  display: flex;
+  margin-top: 100px;
+}

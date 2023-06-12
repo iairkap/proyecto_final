@@ -1,0 +1,23 @@
+.Container {
+  border: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 9px;
+  width: 525px;
+  height: 540px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.InfoContainer {
+  display: flex;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}

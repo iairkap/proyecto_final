@@ -8,7 +8,6 @@
   height: 109px;
   display: flex;
   justify-content: space-around;
-  border-radius: 5px;
 }
 
 .Container:hover {
@@ -84,4 +83,11 @@
   align-content: space-around;
   flex-direction: column;
   justify-content: center;
+}
+
+.contenedorSpan {
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  justify-content: flex-end;
 }
