@@ -9,10 +9,10 @@ import {
 } from "../../assets/page";
 import styles from "./NavBar.module.css";
 
-const NavBar = () => {
+const NavBar = ({ handleBotonMenu }) => {
   return (
     <div className={styles.Navbar}>
-      <div className={styles.MenuContainer}>
+      <div className={styles.MenuContainer} onClick={handleBotonMenu}>
         <Image src={Vector} alt="image" className={styles.Menu} />
         <br />
       </div>

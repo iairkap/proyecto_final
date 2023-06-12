@@ -1,0 +1,23 @@
+.Menu {
+  z-index: -1;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 100%;
+  background-color: #6850bf;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.MenuContainer {
+  display: flex;
+  background-color: red;
+}
+
+.MenuContainerClose {
+  display: none;
+}
