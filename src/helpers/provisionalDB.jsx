@@ -8,7 +8,7 @@ const jobsTemplate = [
     profilePicture: GoogleBlack,
     name: "Frontend Developer",
     seniority: "Junior",
-    requires: "React, Redux, CSS, HTML",
+    requires: ["React", "Redux", "CSS", "HTML"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
@@ -21,7 +21,7 @@ const jobsTemplate = [
     profilePicture: wix,
     name: "Backend Developer",
     seniority: "Trainee",
-    requires: "Node, Express, MongoDB",
+    requires: ["Node, Express, MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
@@ -34,7 +34,7 @@ const jobsTemplate = [
     profilePicture: meta,
     name: "Data Scientist",
     seniority: "Senior",
-    requires: "Python, Pandas, Numpy, Matplotlib",
+    requires: ["Python, Pandas, Numpy, Matplotlib"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
@@ -47,7 +47,7 @@ const jobsTemplate = [
     profilePicture: windows,
     name: "Fullstack Developer",
     seniority: "Senior",
-    requires: "React, Redux, CSS, HTML, Node, Express, MongoDB",
+    requires: ["React, Redux, CSS, HTML, Node, Express, MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
@@ -60,7 +60,7 @@ const jobsTemplate = [
     profilePicture: GoogleBlack,
     name: "Frontend Developer",
     seniority: "Junior",
-    requires: "React, Redux, CSS, HTML",
+    requires: ["React, Redux, CSS, HTML"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
@@ -73,7 +73,7 @@ const jobsTemplate = [
     profilePicture: wix,
     name: "Backend Developer",
     seniority: "Trainee",
-    requires: "Node, Express, MongoDB",
+    requires: ["Node, Express, MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
@@ -86,7 +86,7 @@ const jobsTemplate = [
     profilePicture: meta,
     name: "Data Scientist",
     seniority: "Senior",
-    requires: "Python, Pandas, Numpy, Matplotlib",
+    requires: ["Python, Pandas, Numpy, Matplotlib"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
@@ -99,7 +99,7 @@ const jobsTemplate = [
     profilePicture: windows,
     name: "Fullstack Developer",
     seniority: "Senior",
-    requires: "React, Redux, CSS, HTML, Node, Express, MongoDB",
+    requires: ["React, Redux, CSS, HTML, Node, Express, MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
