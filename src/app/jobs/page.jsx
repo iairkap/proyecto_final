@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./jobs.module.css";
 import jobsTemplate from "../../helpers/provisionalDB";
-import JobsOfferCardsContainer from "../../components/JobsOffer Component/JobsOffer Cards Container /JobsOfferCardsContainer";
+import JobsOfferCardsContainer from "../../components/JobsOfferCardsComponents/JobsOfferCardsContainer/JobsOfferCardsContainer";
 import Image from "next/image";
 import { samplepost } from "@/assets/page";
 
