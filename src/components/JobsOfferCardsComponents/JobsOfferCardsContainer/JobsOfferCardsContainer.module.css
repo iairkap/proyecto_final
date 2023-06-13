@@ -1,6 +1,4 @@
 .Container {
   display: flex;
-  flex-direction: column;
-  gap: 39px;
   margin-left: 150px;
 }

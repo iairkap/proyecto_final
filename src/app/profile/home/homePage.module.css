@@ -1,6 +1,12 @@
-.jobsContainer {
+.globalContainer {
   display: flex;
+  flex-direction: column;
 }
 
-.detailContainer {
+.jobsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  margin-left: 167px;
+  margin-top: 66px;
 }

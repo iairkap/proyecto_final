@@ -10,7 +10,7 @@ const jobsTemplate = [
     seniority: "Junior",
     requires: ["React", "Redux", "CSS", "HTML"],
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci placeat ipsam ratione maiores veritatis earum eos corporis omnis. Expedita odit ut ipsum accusantium est cupiditate iste praesentium et cumNemo maxime facere expedita aliquam, atque quam laudantium id laboriosam non, a",
     salary: 50000,
     start: "2023-05-20",
     end: "2024-01-31",
