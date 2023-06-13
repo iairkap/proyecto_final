@@ -5,6 +5,7 @@ import styles from "./homePage.module.css";
 import jobsTemplate from "../../../helpers/provisionalDB";
 import JobsOfferDetail from "../../../components/JobsOfferDetail/JobsOfferDetail";
 import React, { useState } from "react";
+import SelectsContainer from "../../../components/SelectContainer/SelectContainer";
 
 const jobs = jobsTemplate;
 function homePage() {
@@ -18,6 +19,8 @@ function homePage() {
   return (
     <div className={styles.globalContainer}>
       <SearchBar />
+      <br />
+      <SelectsContainer />
       <div className={styles.jobsContainer}>
         <JobsOfferCardsContainerForHome
           jobs={jobs}

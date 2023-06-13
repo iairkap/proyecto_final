@@ -17,7 +17,7 @@ const JobsOfferDetail = ({ selectedJobId }) => {
   }, [selectedJobId]);
 
   if (!job) {
-    return <div>Hola soy el contenedor!</div>;
+    return <div></div>;
   }
 
   return (
