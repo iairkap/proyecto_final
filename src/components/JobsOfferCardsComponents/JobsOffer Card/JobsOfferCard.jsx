@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const JobsOfferCard = ({
   id,
-  profilePicture,
+  logo_Company,
   company,
-  name,
+  name_Vacancy,
   seniority,
   showButton,
   start,
@@ -22,10 +22,10 @@ const JobsOfferCard = ({
     >
       <div className={styles.InfoContainer}>
         <div className={styles.CompanyNameContainer}>
-          <Image src={profilePicture} alt="imagen" className={styles.image} />
+          <Image src={logo_Company} alt="imagen" className={styles.image} />
           <span className={styles.span}>{company}</span>
         </div>
-        <h1 className={styles.CompanyTitle}> {name} </h1>
+        <h1 className={styles.CompanyTitle}> {name_Vacancy} </h1>
         <span className={styles.span}> {seniority} </span>
       </div>
       {showButton && (

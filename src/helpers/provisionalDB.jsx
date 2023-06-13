@@ -1,114 +1,130 @@
-/* id, company, name, requires, description, salary, start, end  */
-import { wix, GoogleBlack, meta, windows } from "../assets/page";
+/* id, company, name, programming_Languages, description, salary, start, end  */
+import { wix, GoogleBlack, meta, windows } from "../../src/assets/page";
 
 const jobsTemplate = [
   {
     id: 1,
     company: "Google",
-    profilePicture: GoogleBlack,
-    name: "Frontend Developer",
+    logo_Company: GoogleBlack,
+    name_Vacancy: "Frontend Developer",
     seniority: "Junior",
-    requires: ["React", "Redux", "CSS", "HTML"],
+    programming_Languages: ["React", "Redux", "CSS", "HTML"],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci placeat ipsam ratione maiores veritatis earum eos corporis omnis. Expedita odit ut ipsum accusantium est cupiditate iste praesentium et cumNemo maxime facere expedita aliquam, atque quam laudantium id laboriosam non, a",
     salary: 50000,
+    years_of_experience: "2 years",
+    workday: "Full_time",
     start: "2023-05-20",
     end: "2024-01-31",
   },
   {
     id: 2,
     company: "Wix",
-    profilePicture: wix,
-    name: "Backend Developer",
+    logo_Company: wix,
+    name_Vacancy: "Backend Developer",
     seniority: "Trainee",
-    requires: ["Node, Express, MongoDB"],
+    programming_Languages: ["Node, Express, MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
+    years_of_experience: "2 years",
+    workday: "Full_time",
     start: "2023-01-01",
     end: "2024-01-31",
   },
   {
     id: 3,
     company: "Meta",
-    profilePicture: meta,
-    name: "Data Scientist",
+    logo_Company: meta,
+    name_Vacancy: "Data Scientist",
     seniority: "Senior",
-    requires: ["Python, Pandas, Numpy, Matplotlib"],
+    programming_Languages: ["Python, Pandas, Numpy, Matplotlib"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
+    years_of_experience: "2 years",
+    workday: "Full_time",
     start: "2022-01-01",
     end: "2024-01-31",
   },
   {
     id: 4,
     company: "Windows",
-    profilePicture: windows,
-    name: "Fullstack Developer",
+    logo_Company: windows,
+    name_Vacancy: "Fullstack Developer",
     seniority: "Senior",
-    requires: ["React, Redux, CSS, HTML, Node, Express, MongoDB"],
+    programming_Languages: ["React, Redux, CSS, HTML, Node, Express, MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
+    years_of_experience: "2 years",
+    workday: "Full_time",
     start: "2022-01-01",
     end: "2024-01-31",
   },
   {
     id: 5,
     company: "Google",
-    profilePicture: GoogleBlack,
-    name: "Frontend Developer",
+    logo_Company: GoogleBlack,
+    name_Vacancy: "Frontend Developer",
     seniority: "Junior",
-    requires: ["React, Redux, CSS, HTML"],
+    programming_Languages: ["React, Redux, CSS, HTML"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
+    years_of_experience: "2 years",
+    workday: "Full_time",
     start: "2023-05-20",
     end: "2024-01-31",
   },
   {
     id: 6,
     company: "Wix",
-    profilePicture: wix,
-    name: "Backend Developer",
+    logo_Company: wix,
+    name_Vacancy: "Backend Developer",
     seniority: "Trainee",
-    requires: ["Node, Express, MongoDB"],
+    programming_Languages: ["Node, Express, MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
+    years_of_experience: "2 years",
+    workday: "Full_time",
     start: "2023-01-01",
     end: "2024-01-31",
   },
   {
     id: 7,
     company: "Meta",
-    profilePicture: meta,
-    name: "Data Scientist",
+    logo_Company: meta,
+    name_Vacancy: "Data Scientist",
     seniority: "Senior",
-    requires: ["Python, Pandas, Numpy, Matplotlib"],
+    programming_Languages: ["Python, Pandas, Numpy, Matplotlib"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
+    years_of_experience: "2 years",
+    workday: "Full_time",
     start: "2022-01-01",
     end: "2024-01-31",
   },
   {
     id: 8,
     company: "Windows",
-    profilePicture: windows,
-    name: "Fullstack Developer",
+    logo_Company: windows,
+    name_Vacancy: "Fullstack Developer",
     seniority: "Senior",
-    requires: ["React, Redux, CSS, HTML, Node, Express, MongoDB"],
+    programming_Languages: ["React, Redux, CSS, HTML, Node, Express, MongoDB"],
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     salary: 50000,
+    years_of_experience: "2 years",
+    workday: "Full_time",
     start: "2022-01-01",
     end: "2024-01-31",
   },
 ];
 
-// id, name, secondname, lastname, secondlastname, birth, age, working, cv, email, password, enfoque1, enfoque2, aboutme, titulos, seniority, profilePicture
+// id, name, secondname, lastname, secondlastname, birth, age, working, cv, email, password, enfoque1, enfoque2, aboutme, titulos, seniority, logo_Company
 const usersTemplate = [
   {
     id: 1,
@@ -127,7 +143,7 @@ const usersTemplate = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     titulos: "Universidad de Chile, Ingenieria Civil en Computacion",
     seniority: "Junior",
-    profilePicture:
+    logo_Company:
       "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
   },
   {
@@ -146,7 +162,7 @@ const usersTemplate = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl vitae aliquam ultricies, nunc nisl aliquet nunc, vitae al",
     titulos: "Universidad de Chile, Ingenieria Civil en Computacion",
     seniority: "Senior",
-    profilePicture:
+    logo_Company:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
   },
 ];

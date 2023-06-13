@@ -39,11 +39,11 @@ const filtersDB = {
     { id: 5, name: "Internship trainee" },
     { id: 6, name: "Temporal" },
   ],
-  contract: [
-    { id: 1, name: "Permanent" },
-    { id: 2, name: "Temporary" },
-    { id: 3, name: "Freelance" },
-    { id: 4, name: "Internship" },
+  companyTypes: [
+    { id: 1, name: "Startup" },
+    { id: 2, name: "Pyme" },
+    { id: 3, name: "Multinacional" },
+    { id: 4, name: "Medium" },
   ],
 };
 

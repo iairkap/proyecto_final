@@ -24,14 +24,10 @@ const JobsOfferDetail = ({ selectedJobId }) => {
     <div className={styles.Container}>
       <div className={styles.InfoContainer}>
         <div className={styles.CompanyNameContainer}>
-          <Image
-            src={job.profilePicture}
-            alt="imagen"
-            className={styles.image}
-          />
+          <Image src={job.logo_Company} alt="imagen" className={styles.image} />
           <span className={styles.span}>{job.company}</span>
         </div>
-        <h1 className={styles.CompanyTitle}> {job.name} </h1>
+        <h1 className={styles.CompanyTitle}> {job.name_Vacancy} </h1>
         <span className={styles.span}> {job.seniority} </span>
       </div>
       <div className={styles.contenedorButton}>
