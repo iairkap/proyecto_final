@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./jobs.module.css";
 import jobsTemplate from "../../helpers/provisionalDB";

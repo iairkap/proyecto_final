@@ -4,7 +4,7 @@ import JobsOfferCardsContainerForHome from "../../../components/JobsOfferCardsCo
 import styles from "./homePage.module.css";
 import jobsTemplate from "../../../helpers/provisionalDB";
 import JobsOfferDetail from "../../../components/JobsOfferDetail/JobsOfferDetail";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const jobs = jobsTemplate;
 function homePage() {
@@ -23,7 +23,7 @@ function homePage() {
           jobs={jobs}
           onJobSelect={handleJobSelect}
         />
-        <JobsOfferDetail job={selectedJob} />
+        <JobsOfferDetail job={selectedJob} className={styles.detailContainer} />
       </div>
     </div>
   );
